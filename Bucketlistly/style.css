@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("images/Travel\ Images.jpg");
+    min-height: 745px;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+/*Navbar starts*/
+.topnav{
+    padding-left: 650px;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 15% 25% 10% 20%;
+    padding-top: 15px;
+}
+.default {
+    border-color: #e7e7e7;
+    color: black;
+} 
+.btn{ 
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: small;
+    padding-top: 5px;
+    column-gap: normal;
+}
+.warning{
+    padding: 8px 22px;
+    cursor: pointer;
+    background-color: gold;
+    font-size: small;
+}
+
+/*Navbar ends*/
+
+/*Main content starts*/
+p{
+    text-align: center;
+    padding-top: 130px;
+    font-size: 80px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+/*Main content ends*/
+
+/*button-group starts*/
+
+
+/*button-group ends*/
